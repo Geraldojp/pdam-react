@@ -41,7 +41,7 @@ const styles = {
         borderRadius: '5px',
         width: '529px',
         height: '600px',
-        margin: '0 50px',
+        margin: '0 60px',
         marginRight: '100px',
         padding: '20px'
     },
