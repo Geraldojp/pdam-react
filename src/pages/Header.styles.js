@@ -60,7 +60,6 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'flex-end',
         justifyContent: 'space-between',
-
     }
 }
 export default styles;
