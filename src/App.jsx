@@ -11,7 +11,13 @@ function App() {
     <>
         <NavBar />
         <Header />
+        <Header />
+        <Header />
 
+        <GlobalStyles />
+        <NavBar />
+        <Header />
+        <Blog />
         <About />
 
     </>
