@@ -1,9 +1,9 @@
-const IconLink = (props) => {
-  return (
-    <a href={props.to}>
-      <img src={props.iconSrc} />
-    </a>
-  );
-};
+function IconLink({ to, iconSrc }) {
+    return (
+        <a href={to}>
+            <img src={iconSrc} />
+        </a>
+    );
+}
 
 export default IconLink;
