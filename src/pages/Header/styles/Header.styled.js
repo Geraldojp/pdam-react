@@ -1,5 +1,5 @@
-import Background from "../../../assets/background.jpg";
 import styled from "styled-components";
+import Background from "../../../assets/background.jpg";
 import Button from "../../../components/styles/Button.styled";
 
 // const styles = {
