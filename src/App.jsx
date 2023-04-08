@@ -3,6 +3,7 @@ import { NavBar } from './components/NavBar';
 import Blog from './pages/Blog';
 
 import GlobalStyles from './components/styles/Global';
+import About from "./pages/About/About.jsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <NavBar />
             <Header />
             <Blog />
+            <About />
         </>
     );
 }
