@@ -1,73 +1,75 @@
-
 const styles = {
-    container : {
-        backgroundColor : "#157599",
-        display : "flex",
-        justifyContent : "space-between",
-        padding : "100px",
-        flexDirection : "column",
-        alignItems:"flex-start",
-        width:"100%",
-        gap:"1em"
-    
+    container: {
+        backgroundColor: '#157599',
+        display: 'flex',
+        justifyContent: 'space-between',
+        padding: '100px',
+        flexDirection: 'column',
+        alignItems: 'flex-start',
+        width: '100%',
+        gap: '1em',
     },
-    containerSection : {
-        display : "flex",
-        width:"100%"
+    containerSection: {
+        display: 'flex',
+        width: '100%',
     },
-    description : {
-        fontFamily: "Roboto",
-        fontStyle: "normal",
+    description: {
+        fontFamily: 'Roboto',
+        fontStyle: 'normal',
         fontWeight: 500,
-        fontSize: "25px",
-        lineHeight: "40px",
-        color: "#FFFFFF",
-        width: "368.29px",
-        display : "flex",
-        textAlign : "left"
+        fontSize: '25px',
+        lineHeight: '40px',
+        color: '#FFFFFF',
+        width: '368.29px',
+        display: 'flex',
+        textAlign: 'left',
     },
-    logoPDAM : {
-        width: "126.79px",
-        height: "117px",
-        left: "180.12px",
-        top: "4042px"
+    logoPDAM: {
+        width: '126.79px',
+        height: '117px',
+        left: '180.12px',
+        top: '4042px',
     },
-    Icon : {
-        display : "flex",
-        justifyContent:"space-between",
-        alignItems:"center",
-        width:"100%",
-        marginTop:30
+    Icon: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        width: '100%',
+        marginTop: 30,
     },
-    section : {
-        display: "flex",
-        width:"33%",
-        padding: "1.5em",
+    section: {
+        display: 'flex',
+        width: '33%',
+        padding: '1.5em',
         fontFamily: 'Roboto',
-        fontStyle: "normal",
-        color: "#FFFFFF"
+        fontStyle: 'normal',
+        color: '#FFFFFF',
     },
-    title : {
+    title: {
         fontFamily: 'Roboto',
-        fontStyle: "normal",
+        fontStyle: 'normal',
         fontWeight: 900,
-        fontSize: "30px",
-        lineHeight: "35px",
-        color: "#FFFFFF"
+        fontSize: '30px',
+        lineHeight: '35px',
+        color: '#FFFFFF',
     },
-    navigasi : {
-        display : "flex",
-        flexDirection : "column",
-        alignItems : "center",
-        textAlign : "left",
+    navigasi: (activeMenu, index) => ({
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        textAlign: 'left',
         fontFamily: 'Roboto',
-        fontStyle: "normal",
+        fontStyle: 'normal',
         fontWeight: 400,
-        fontSize: "20px",
-        lineHeight: "23px",
-        color : "white",
-        marginBottom : "10px"
-    }
-}
+        fontSize: '20px',
+        lineHeight: '23px',
+        color: 'white',
+        marginBottom: '10px',
+        borderBottom: `${activeMenu === index ? '3px solid white' : ''}`,
+        opacity: `${activeMenu !== index ? '0.5' : ''}`,
+        paddingBottom: '3px',
+        cursor: 'pointer',
+    }),
+};
 
-export default styles
+export default styles;
