@@ -63,7 +63,7 @@ const GlobalStyles = createGlobalStyle`
   */
   #root, #__next {
     isolation: isolate;
-    
+    background-color: #f3f3f3
   }
 `;
 
