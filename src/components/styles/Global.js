@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   /*
@@ -63,7 +63,8 @@ const GlobalStyles = createGlobalStyle`
   */
   #root, #__next {
     isolation: isolate;
+    
   }
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;
