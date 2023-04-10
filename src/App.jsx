@@ -4,6 +4,7 @@ import Blog from './pages/Blog';
 
 import GlobalStyles from './components/styles/Global';
 import About from "./pages/About/About.jsx";
+import {Reason} from "./pages/Reasons/Reason.jsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <GlobalStyles />
             <NavBar />
             <Header />
+            <Reason/>
             <Blog />
             <About />
         </>
