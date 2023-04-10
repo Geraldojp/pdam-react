@@ -1,7 +1,7 @@
-function IconLink({ to, iconSrc }) {
+function IconLink({ to, iconSrc ,...props}) {
     return (
         <a href={to}>
-            <img src={iconSrc} />
+            <img src={iconSrc} {...props} />
         </a>
     );
 }
